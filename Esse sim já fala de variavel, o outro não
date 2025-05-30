@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    //tenho que indicar o tipo e o nome, TIPO NOME;
+    //TIPO NOME = VALOR; pode ser assim tbm. Eu já sabia. mas sempre relembrando
+    
+    int mortes=0; //int de inteiro, recebe nums inteiros + e -, mortes como nome e ";" para encerrar o comando, 
+    char letra='E'; //char recebe letra, ele recebe o caracter com 'B' apostos
+    char letras[20]; //utilizando o [] eu posso aumentar o numero de letras em char e isso vira um vetor. O valor dentro do [] é o numero de letras que pode
+    double numeralDecimal=1.7; //exemplo: 2.5 , numero decimal sempre com . e ,
+    float decimalDois=5.5; //esse tem menos precisão que o double. Por exemplo, double fosse 2.499999 no float seria 2.5
+    bool trueorfalse=true; //verdadeiro ou falso
+    string nome="Eduardo"; //recebe um texto, recebe texto maior, o Char recebe só 1 caracter e vem entre aspas. "Eduardo"
+    
+    cout << nome << "\n";
+    cout << letra << "\n";
+    cout << numeralDecimal << "\n";
+    cout << decimalDois << "\n";
+    cout << trueorfalse << "\n";
+    cout << mortes << "\n";
+    
+    ;return 0;
+}
