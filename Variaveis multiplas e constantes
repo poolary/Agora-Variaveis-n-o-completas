@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+#define pi 3.1415 //a constante NÃO pode mudar. A variavel pode sim mudar. Por isso em constante o Define(Defina)
+#define canal cout << "Eduardo programador do futuro\n\n"; //pode se colocar comandos no define, e por ser cout tem que ter ";"
+
+int main(){
+    
+    int vida=3, tiros=500, life=100; //declarações de variaveis multiplas e pode se declarar dessa forma para qlqr tipo de var.
+    
+    cout << pi << "\n\n";
+    canal
+    
+    return 0;
+}
