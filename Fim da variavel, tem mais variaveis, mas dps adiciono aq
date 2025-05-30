@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    //tenho que indicar o tipo e o nome, TIPO NOME;
+    //TIPO NOME = VALOR; pode ser assim tbm. Eu já sabia. mas sempre relembrando
+    
+    int mortes=0; //int de inteiro, recebe nums inteiros + e -, mortes como nome e ";" para encerrar o comando, 
+    char letra='E'; //char recebe letra, ele recebe o caracter com 'B' apostos
+    char letras[20]; //utilizando o [] eu posso aumentar o numero de letras em char e isso vira um vetor. O valor dentro do [] é o numero de letras que pode
+    double numeralDecimal=1.7; //exemplo: 2.5 , numero decimal sempre com . e ,
+    float decimalDois=5.5; //esse tem menos precisão que o double. Por exemplo, double fosse 2.499999 no float seria 2.5
+    bool trueorfalse=true; //verdadeiro ou falso
+    string nome="Eduardo"; //recebe um texto, recebe texto maior, o Char recebe só 1 caracter e vem entre aspas. "Eduardo"
+    
+    cout << "Digite o número de mortes: ";
+    cin >> mortes; //c in, ou cin, lê do teclado, por isso o >> e não <<, o << lé do proprio codigo, e com o ">> vidas" vai ler do teclado e armazenar em vidas
+    cout << "Digite uma letra: ";
+    cin >> letra; 
+    cout << "Dinheiro: ";
+    cin >> numeralDecimal;
+    cout << "Digite seu nome: ";
+    cin >> nome;
+    
+    mortes=100; //se eu fizer assim, eu faço esse valor ser o resultado final independente do inicio ou meio
+    //inicialmente foi impresso com aql valor, mas dps de ler o conteudo do teclado, com o cin, substituiu oq estava lá na variavel.
+    //e para comentar, q já sei q é o //, para deixar maior, pode ser /* e finalizar com */. para LINHAS, não só uma não. Mais de uma
+    
+    ;cout <<"\nNome: " << nome << "\nLetra: " << letra << "\n" << numeralDecimal << "\n" << decimalDois << "\n" << trueorfalse << "\n" << mortes << "\n";
+    //tudo pode ser escrito com um só cout. E se usar \nVar, o nome da variavel sai antes do "resultado". tipo NomeArhya.
+    ;return 0;
+}
